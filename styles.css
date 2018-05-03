@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+table {
+    border: 1px solid black;
+}
+th, tr, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+.clock-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#clock-count-up {
+    display: flex;
+    flex-direction: column;
+}
+
+#clock-count-down {
+    display: flex;
+    flex-direction: column;
+}

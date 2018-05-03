@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="clock-count-up">
+        <div class="clock-body">
+            <form>
+                <input type="number" id="starting-time-up" name="time-seconds">
+                <button class="set-time-button">set time</button>
+            </form>
+            <div id="clock-count-up-time"></div>
+            <div id="clock-count-up-buttons">
+                <button id="start button">START</button>
+                <button id="stop button">STOP</button>
+                <button id="pause button">PAUSE</button>
+                <button id="lap button">LAP</button>
+            </div>
+        </div>
+        <table id="clock-count-up-laps">
+            <tr>
+                <th>Lap</th>
+                <th>Time</th>
+            </tr>
+        </table>
+    </div>
+    <div id="clock-count-down">
+        <div class="clock-body">
+            <form>
+                <input type="number" id="starting-time-down" name="time-seconds">
+                <button class="set-time-button">set time</button>
+            </form>
+            <div id="clock-count-down-time"></div>
+            <div id="clock-count-down-buttons">
+                <button id="start button">START</button>
+                <button id="stop button">STOP</button>
+                <button id="pause button">PAUSE</button>
+                <button id="lap button">LAP</button>
+            </div>
+        </div>
+        <table id="clock-count-down-laps">
+            <tr>
+                <th>Lap</th>
+                <th>Time</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="timer.js"></script>
+
+</html>
